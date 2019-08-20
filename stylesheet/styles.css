@@ -24,8 +24,9 @@
 	font-size: 14px;
 }
 
-
-
-header{
-	background-color: yellow;
+.signupForm{
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
 }
+
