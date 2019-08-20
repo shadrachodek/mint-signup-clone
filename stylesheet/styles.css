@@ -1,0 +1,31 @@
+.signin-options{
+	display: flex;
+	justify-content: flex-end;
+	width: 100%;
+}
+
+.logo{
+	text-align: center;
+}
+
+.signin-btn{
+	background-color: #0077C5;
+	width: 115px;
+	height: 35px;
+	border-radius: 0.5em;
+}
+
+.topSigninText p{
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.topSigninText {
+	font-size: 14px;
+}
+
+
+
+header{
+	background-color: yellow;
+}
