@@ -1,3 +1,6 @@
+html, body {
+	background-color: #ECEEF1;
+}
 .signin-options{
 	display: flex;
 	justify-content: flex-end;
