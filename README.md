@@ -9,4 +9,4 @@
 A clone design of Mint.com sign up form page
 
 ### Link to the live demo
-https://trekab.github.io/mint-signup-clone/
+https://shadymedy.github.io/mint-signup-clone/
