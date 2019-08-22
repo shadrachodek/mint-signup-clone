@@ -30,16 +30,17 @@ fieldset {
 }
 
 form div {
-	text-align: left;
 	margin-bottom: 25px;
 	margin-left: 10px;
 	margin-right: 10px;
+	text-align: left;
 }
 
 .logoImage {
+	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png);
 	height: 35px;
 	width: 118px;
-	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png);
+
 }
 
 .logo{
