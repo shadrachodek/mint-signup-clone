@@ -1,3 +1,6 @@
 linters:
   stylelint:
   csslint:
+  rules: {
+    "order/properties-alphabetical-order": null
+  }

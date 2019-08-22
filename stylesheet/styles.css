@@ -1,17 +1,9 @@
-*,
-*:before,
-*:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
 html, body {
 	background-color: #ECEEF1;
-	margin: 7px 15px;
 	height: 100%;
 	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
+	margin: 7px 15px;
 }
 
 a{
@@ -153,9 +145,6 @@ label {
 	margin-bottom: 0px;
 }
 
-.topSigninText > a {
-    color: #0077C5;
-}
 
 .topSigninText {
 	font-size: 12px;
@@ -203,4 +192,7 @@ footer ul li{
 
 footer ul li a{
 	color: #505050;
+}
+.topSigninText > a {
+    color: #0077C5;
 }
