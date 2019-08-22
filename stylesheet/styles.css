@@ -104,9 +104,9 @@ div.header-logo-list {
 }
 
 form input {
-  width: 95%;
-  max-width: 100%;
-  padding: 9px 5px;
+  width: 100%;
+	max-width: 100%;
+	height: 34px;
   border: 1px solid #c1c5c8;
   border-radius: 4px;
 }
