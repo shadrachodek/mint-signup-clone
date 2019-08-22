@@ -104,17 +104,20 @@ div.header-logo-list {
 }
 
 form input {
-  width: 100%;
-	max-width: 100%;
+	border: 1px solid #c1c5c8;
+	border-radius: 4px;
+	-webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+	box-sizing: border-box;
 	height: 34px;
-  border: 1px solid #c1c5c8;
-  border-radius: 4px;
+	max-width: 100%;
+  width: 100%;
 }
 
 legend {
+	color: #4c4c4c;
   font-size: 24px;
   line-height: 1.1em;
-  color: #4c4c4c;
   padding: 25px 0 8px 0;
 }
 
