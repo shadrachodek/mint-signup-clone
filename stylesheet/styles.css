@@ -1,3 +1,10 @@
+html, body, div, p, a, img, form, fieldset, ul, li, input{
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
 html, body {
 	background-color: #ECEEF1;
 	height: 100%;
@@ -29,7 +36,7 @@ form div {
 	margin-right: 10px;
 }
 
-#logo {
+.logoImage {
 	height: 35px;
 	width: 118px;
 	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png);
@@ -141,8 +148,8 @@ label {
 
 
 .topSigninText p{
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
 }
 
 
