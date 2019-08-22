@@ -1,0 +1,213 @@
+html,
+body,
+p,
+div,
+form,
+fieldset,
+ul,
+a,
+li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #eceef1;
+  height: 100%;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 7px 15px;
+}
+
+a {
+  color: #0077c5;
+  text-decoration: none;
+}
+
+form {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  text-align: center;
+}
+
+fieldset {
+  border: none;
+  width: 100%;
+}
+
+form div {
+  margin: 0 10px 25px;
+  text-align: left;
+}
+
+.logoImage {
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png);
+  height: 35px;
+  width: 118px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+div.header-logo-list {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+.header-logo-list div {
+  margin: 0 -2px;
+}
+
+.header-logo-list .header-logo {
+  height: 23px;
+  left: 10px;
+  position: relative;
+  width: 40px;
+}
+
+.header-logo-list .header-text {
+  height: 23px;
+  left: 3px;
+  position: relative;
+  width: 50px;
+}
+
+.header-logo-list .header-logo-1 {
+  background: url(../images/mint-favicon.svg) no-repeat;
+}
+
+.header-logo-list .header-text-1 {
+  background: url(../images/mint-text.svg) no-repeat;
+}
+
+.header-logo-2 {
+  background: url(../images/quickbooks-favicon@2x.svg) no-repeat;
+}
+
+.header-text-2 {
+  background: url(../images/quick-books-text.svg) no-repeat;
+  width: 100px !important;
+}
+
+.header-logo-3 {
+  background: url(../images/tt-favicon@2x.svg) no-repeat;
+}
+
+.header-text-3 {
+  background: url(../images/turbo-tax-text.svg) no-repeat;
+  width: 80px !important;
+}
+
+form input {
+  border: 1px solid #c1c5c8;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 34px;
+  max-width: 100%;
+  width: 100%;
+}
+
+legend {
+  color: #4c4c4c;
+  font-size: 24px;
+  line-height: 1.1em;
+  padding: 25px 0 8px 0;
+}
+
+label {
+  color: #404040;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.signin-options {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.signin-btn {
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  height: 35px;
+  width: 115px;
+}
+
+.createAccountBtn {
+  background-color: #0077c5;
+  border: 1px solid #4c4c4c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 1.125em;
+  font-weight: 400;
+  height: 44px;
+  width: 100%;
+}
+
+.topSigninText p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.topSigninText {
+  font-size: 12px;
+  padding: 0 7px;
+}
+
+.signupForm {
+  margin-left: auto;
+  margin-right: auto;
+  width: 380px;
+}
+
+.learnMoreLink {
+  display: block;
+}
+
+.formFooter {
+  color: gray;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+}
+
+.recaptcha {
+  background-color: #eceef1;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  width: 100;
+}
+
+footer {
+  color: #505050;
+  font-size: 12px;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 0.5em;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline;
+}
+
+footer ul li a {
+  color: #505050;
+}
+
+.topSigninText > a {
+  color: #0077c5;
+}
