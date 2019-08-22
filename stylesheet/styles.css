@@ -1,209 +1,203 @@
-html, body, div, p, a, img, form, fieldset, ul, li, input{
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-
-html, body {
-	background-color: #ECEEF1;
-	height: 100%;
-	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 14px;
-	margin: 7px 15px;
+html,
+body {
+  background-color: #eceef1;
+  height: 100%;
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  margin: 7px 15px;
 }
 
-a{
-	text-decoration: none;
-	color: #0077C5;
+a {
+  text-decoration: none;
+  color: #0077c5;
 }
 
 form {
-    border: 1px solid #c7c7c7;
-    background-color: #fff;
-    text-align: center;
+  border: 1px solid #c7c7c7;
+  background-color: #fff;
+  text-align: center;
 }
 
 fieldset {
-    border: none;
-    width: 100%;
+  border: none;
+  width: 100%;
 }
 
 form div {
-	margin-bottom: 25px;
-	margin-left: 10px;
-	margin-right: 10px;
-	text-align: left;
+  margin: 0 10px 25px;
+  text-align: left;
 }
 
 .logoImage {
-	background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png);
-	height: 35px;
-	width: 118px;
-
+  background-image: url(https://plugin.intuitcdn.net/identity-authn-core-ui/1.0.0-dev.93/images/ecosystem_logos_new.png);
+  height: 35px;
+  width: 118px;
 }
 
-.logo{
-	display: flex;
-	justify-content: center;
+.logo {
+  display: flex;
+  justify-content: center;
 }
 
 div.header-logo-list {
-    justify-content: center;
-    display: flex;
-    padding: 25px;
+  justify-content: center;
+  display: flex;
+  padding: 25px;
 }
 
 .header-logo-list div {
-	margin: 0 -2px;
+  margin: 0 -2px;
 }
 
 .header-logo-list .header-logo {
-	width: 40px;
-	height: 23px;
-	position: relative;
-	left: 10px;
+  width: 40px;
+  height: 23px;
+  position: relative;
+  left: 10px;
 }
 
 .header-logo-list .header-text {
-	width: 50px;
-	height: 23px;
-	position: relative;
-	top: 3px;
+  width: 50px;
+  height: 23px;
+  position: relative;
+  top: 3px;
 }
 
 .header-logo-list .header-logo-1 {
-	background: url(../images/mint-favicon.svg) no-repeat;
+  background: url(../images/mint-favicon.svg) no-repeat;
 }
 
 .header-logo-list .header-text-1 {
-	background: url(../images/mint-text.svg) no-repeat;
+  background: url(../images/mint-text.svg) no-repeat;
 }
+
 .header-logo-2 {
-	background: url(../images/quickbooks-favicon@2x.svg) no-repeat;
+  background: url(../images/quickbooks-favicon@2x.svg) no-repeat;
 }
 
 .header-text-2 {
-	background: url(../images/quick-books-text.svg) no-repeat;
-	width: 100px !important;
+  background: url(../images/quick-books-text.svg) no-repeat;
+  width: 100px !important;
 }
+
 .header-logo-3 {
-	background: url(../images/tt-favicon@2x.svg) no-repeat;
+  background: url(../images/tt-favicon@2x.svg) no-repeat;
 }
 
 .header-text-3 {
-	background: url(../images/turbo-tax-text.svg) no-repeat;
-	width: 80px !important;
+  background: url(../images/turbo-tax-text.svg) no-repeat;
+  width: 80px !important;
 }
 
 form input {
-    width: 100%;
-    max-width: 100%;
-    height: 34px;
-    border: 1px solid #C1C5C8;
-		border-radius: 4px;
-		box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  height: 34px;
+  border: 1px solid #c1c5c8;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-
 legend {
-    font-size: 24px;
-    line-height: 1.1em;
-    color: #4C4C4C;
-    padding: 25px 0 8px 0;
+  font-size: 24px;
+  line-height: 1.1em;
+  color: #4c4c4c;
+  padding: 25px 0 8px 0;
 }
 
 label {
-	font-weight: 400;
-	line-height: 25px;
-	font-size: 14px;
-	color: #404040;
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 14px;
+  color: #404040;
 }
 
-.signin-options{
-	display: flex;
-	justify-content: flex-end;
-	width: 100%;
+.signin-options {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
 }
 
-
-
-.signin-btn{
-	background-color: #0077C5;
-	width: 115px;
-	height: 35px;
-	color: #fff;
-	border-radius: 4px;
-	border: 1px solid #4c4c4c;
-	box-sizing: border-box;
+.signin-btn {
+  background-color: #0077c5;
+  width: 115px;
+  height: 35px;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #4c4c4c;
+  box-sizing: border-box;
 }
 
-.createAccountBtn{
-	background-color: #0077C5;
-	font-weight: 400;
-	font-size: 1.125em;
-	width: 100%;
-	height: 44px;
-	color: #fff;
-	border-radius: 4px;
-	border: 1px solid #0077C5;
-	box-sizing: border-box;
+.createAccountBtn {
+  background-color: #0077c5;
+  font-weight: 400;
+  font-size: 1.125em;
+  width: 100%;
+  height: 44px;
+  color: #fff;
+  border-radius: 4px;
+  border: 1px solid #0077c5;
+  box-sizing: border-box;
 }
 
-
-.topSigninText p{
-	margin-top: 0;
-	margin-bottom: 0;
+.topSigninText p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
-
 
 .topSigninText {
-	font-size: 12px;
-	padding: 0 7px;
+  font-size: 12px;
+  padding: 0 7px;
 }
 
-.signupForm{
-	width: 380px;
-	margin-left: auto;
-	margin-right: auto;
+.signupForm {
+  width: 380px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.learnMoreLink{
-	display: block;
+.learnMoreLink {
+  display: block;
 }
 
-.formFooter{
-	text-align: center;
-	color: gray;
-	font-style: italic;
-	font-size: 12px;
+.formFooter {
+  text-align: center;
+  color: gray;
+  font-style: italic;
+  font-size: 12px;
 }
 
-.recaptcha{
-	text-align: center;
-	background-color: #ECEEF1;
-	width: 100;
-	margin: 0 ;
-	padding-top: 20px;
-  padding-bottom: 20px;
+.recaptcha {
+  text-align: center;
+  background-color: #eceef1;
+  width: 100;
+  margin: 0;
+  padding: 20px 0;
 }
 
-footer{
-	font-family: AvenirNext,Avenir,"Helvetica Neue",Helvetica,Arial sans-serif;
-	text-align: center;
-	color: #505050;
-	font-size: 12px;
-	line-height: 0.5em;
-	padding: 20px 0;
+footer {
+  font-family: AvenirNext, Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #505050;
+  font-size: 12px;
+  line-height: 0.5em;
+  padding: 20px 0;
 }
 
-footer ul li{
-	display: inline;
+footer ul li {
+  display: inline;
 }
 
-footer ul li a{
-	color: #505050;
+footer ul li a {
+  color: #505050;
 }
+
 .topSigninText > a {
-    color: #0077C5;
+  color: #0077c5;
 }
